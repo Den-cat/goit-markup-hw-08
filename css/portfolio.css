@@ -233,11 +233,6 @@ ol {
   border: 1px solid var(--border-color);
 }
 
-.header .header__container {
-  display: flex;
-  align-items: center;
-}
-
 .header__container {
   font-family: var(--main-font);
   display: flex;
