@@ -17,7 +17,7 @@
 <body>
     <!--header-->
     <header class="header">
-        <div class="header__container">
+        <div class="container header__container">
             <nav class="navigation">
                 <a class="link logo" href="index.html" lang="en">
                     Web<span lang="en" class="logo__black">Studio</span>
@@ -25,12 +25,12 @@
                 <ul class="list menu">
                     <li class="menu__item">
                         <a class="link menu__link" href="index.html">
-                            Студия
+                            <span class="active">Студия</span>
                         </a>
                     </li>
                     <li class="menu__item">
                         <a class="link menu__link" href="portfolio.html">
-                            <span class="active">Портфолио</span>
+                            Портфолио
                         </a>
                     </li>
                     <li class="menu__item">
@@ -40,6 +40,11 @@
                     </li>
                 </ul>
             </nav>
+            <button type="button" class="burger__btn" data-menu-button>
+                <svg width="40" height="40" class="burger__icon" aria-label="мобильное меню">
+                    <use href="./img/sprite.svg#burger"></use>
+                </svg>
+            </button>
             <ul class="list contact-list">
                 <li class="contact-list__item">
                     <a class="link contact-list__link tel-mail-link" href="mailto:info@devstudio.com">
@@ -52,6 +57,48 @@
                         <svg class="contact-list__icon" width="10" height="16">
                             <use href="./images/sprite.svg#smartphone"></use>
                         </svg>+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-menu is-open" data-menu>
+            <button type="button" class="burger-btn__close" data-menu-close>
+                <svg width="40" height="40" class="burger-btn__icon">
+                    <use href="./img/sprite.svg#exit"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                    <a href="" class="mobile-menu__link link">Студия</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="./portfolio.html" class="mobile-menu__link link active">Портфолио</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="" class="mobile-menu__link link">Контакты</a>
+                </li>
+            </ul>
+    
+            <ul class="mobile-contact__list">
+                <li class="mobile-contact__item">
+                    <a href="tel:+380961111111" class="link mobile-contact__link">+38 096 111 11 11</a>
+                </li>
+                <li class="mobile-contact__item">
+                    <a href="mailto:info@devstudio.com" class="link mobile-contact__link">info@devstudio.com</a>
+                </li>
+            </ul>
+    
+            <ul class="mobile-social__list">
+                <li class="mobile-social__item">
+                    <a href="" class="mobile-social__link link">Instagram</a>
+                </li>
+                <li class="mobile-social__item">
+                    <a href="" class="mobile-social__link link">Twitter</a>
+                </li>
+                <li class="mobile-social__item">
+                    <a href="" class="mobile-social__link link">Facebook</a>
+                </li>
+                <li class="mobile-social__item">
+                    <a href="" class="mobile-social__link link">LinkedIn</a>
                 </li>
             </ul>
         </div>
