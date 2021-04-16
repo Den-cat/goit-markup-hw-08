@@ -1,11 +1,3 @@
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
-}
-
 h1,
 h2,
 h3,
@@ -21,6 +13,9 @@ ol {
 
 .body {
   font-family: var(--main-font);
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
 }
 .active {
   color: var(--accent-color);
@@ -45,4 +40,29 @@ ol {
   letter-spacing: 0.03em;
   color: var(--main-color);
   margin-bottom: 50px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  @media screen and (min-width: 768px) {
+    .team & {
+      display: flex;
+    }
+  }
+  .navigation & {
+    display: flex;
+  }
+  .about & {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

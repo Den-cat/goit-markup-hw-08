@@ -12,9 +12,8 @@
 }
 .we-do__list {
   display: flex;
-  align-items: center;
-  margin-right: -30px;
-  margin-top: -30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .we-do__item {
   position: relative;
@@ -42,4 +41,9 @@
   width: 100%;
   bottom: 0;
   left: 0;
+}
+@media screen and (max-width: 1199px) {
+  .we-do {
+    display: none;
+  }
 }
