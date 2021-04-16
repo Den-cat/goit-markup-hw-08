@@ -1,14 +1,15 @@
 .portfolio__btn-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: start;
+  justify-content: center;
   margin-right: -8px;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   padding-bottom: 40px;
 }
 
 .portfolio__btn-item {
+  flex-basis: calc(100% / 3- 8px);
+  justify-content: start;
   margin-top: 15px;
   &:not(:last-child) {
     margin-right: 8px;
