@@ -668,7 +668,6 @@ img {
   background-color: var(--overlay-color);
   color: var(--header-background-color);
   height: 100%;
-  overflow: auto;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 63px;
