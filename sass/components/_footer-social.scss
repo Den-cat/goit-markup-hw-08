@@ -1,5 +1,4 @@
 .footer__social {
-  padding-top: 60px;
   justify-content: center;
 }
 
@@ -45,9 +44,18 @@
     background-color: var(--accent-color);
   }
 }
-
+@media screen and (max-width: 768px) {
+  .footer__social {
+    margin-top: 60px;
+  }
+}
 @media screen and (max-width: 1199px) {
   .footer__social-title {
     text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__social {
+    margin-right: 93px;
   }
 }

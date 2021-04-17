@@ -1,6 +1,6 @@
 .about {
-  padding-bottom: 47px;
-  padding-top: 94px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .about__item {
   margin-left: 30px;
@@ -33,13 +33,13 @@
 }
 .about__list {
   margin-left: -30px;
+  margin-top: -30;
   display: block;
   justify-content: center;
-  padding-top: 60px;
 }
 .about .container .list {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 @media screen and (max-width: 767px) {
   .about__title {
@@ -54,6 +54,7 @@
   .about__item {
     flex-basis: calc(100% / 2 - 30px);
     margin-left: 30px;
+    margin-top: 30px;
   }
   .about__text {
     max-width: 350px;
@@ -61,22 +62,12 @@
   .about__title {
     text-align: left;
   }
-  .equal {
-    margin-top: -25px;
-  }
 }
 @media screen and (min-width: 1200px) {
-  .about {
-    padding: var(--section-pdg--des) 0;
-    padding-bottom: 0;
-  }
-
   .about_list {
     padding-top: 0;
   }
-  .equal {
-    margin-top: 0px;
-  }
+
   .about__item {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;

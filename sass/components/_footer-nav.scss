@@ -25,11 +25,10 @@
   }
   .footer__nav {
     justify-content: center;
-    align-items: center;
     margin-bottom: 60px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
 }
 .footer__tel-mail-link {
@@ -39,7 +38,11 @@
   letter-spacing: 0.03em;
   color: var(--footer-mail-tel);
 }
-
+@media screen and (max-width: 1199px) {
+  .footer__form {
+    margin-top: 60px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer__nav {
     margin-right: 70px;
