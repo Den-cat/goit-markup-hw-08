@@ -11,9 +11,7 @@
 .portfolio__item {
   text-decoration: none;
   display: flex;
-  align-items: center;
-  flex-basis: calc(100% / 3 - 30px);
-  width: 370px;
+  flex-basis: calc(100% / 1 - 30px);
   margin-left: 30px;
   margin-top: 30px;
   &:hover,
@@ -74,8 +72,8 @@
 }
 
 .portfolio__title {
-  width: 322px;
-  height: 36px;
+  // width: 322px;
+  //  height: 36px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -90,8 +88,8 @@
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-  width: 322px;
-  height: 30px;
+  // width: 322px;
+  //height: 30px;
 }
 @media screen and (min-width: 768px) {
   .portfolio__item {
